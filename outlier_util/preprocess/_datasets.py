@@ -23,4 +23,4 @@ def _template():
     --------
     <xxx>
     """
-    pass
+    print("hello")
