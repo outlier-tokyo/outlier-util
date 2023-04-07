@@ -21,7 +21,6 @@ def get_kfold(data : pd.DataFrame, param_kf : dict):
     --------
     get_kfold(data=df, param_kf={"n_splits": 5, "shuffle" : True, "random_state" : 42})
     """
-    print("hello")
     kf = KFold(**param_kf)
     return [
         [data.iloc[train_index], data.iloc[test_index]]
