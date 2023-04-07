@@ -1,5 +1,5 @@
-from _datasets import get_kfold
+from _regression import mape
 
 __all__ = [
-    "get_kfold",
+    "mapr",
 ]
