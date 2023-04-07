@@ -49,4 +49,4 @@ def _template():
     --------
     <xxx>
     """
-    print("hello")
+    print("hello world")
